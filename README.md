@@ -25,7 +25,7 @@ composer require cerbero/:package_name
 ## Usage
 
 ``` php
-$skeleton = new Cerbero\:package_ns();
+$skeleton = new Cerbero\:package_ns\SkeletonClass();
 echo $skeleton->echoPhrase('Hello, League!');
 ```
 
