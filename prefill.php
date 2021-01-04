@@ -4,10 +4,8 @@ define('COL_HELP', 1);
 define('COL_DEFAULT', 2);
 
 $fields = [
-    'package_name' =>           ['Package name',          '<package> in https://github.com/vendor/package',  ''],
-    'package_ns' =>             ['Package namespace',     '<Package> in Cerbero\Package',                    ''],
-    'package_title' =>          ['Package title',         '',                                                '{package_ns}'],
-    'package_description' =>    ['Package very short description',   '',                                     ''],
+    'package_name' =>        ['Package name',          '<package> in https://github.com/vendor/package',  ''],
+    'package_description' => ['Package very short description',   '',                                     ''],
 ];
 
 $values = [];
@@ -17,10 +15,11 @@ $replacements = [
         return $values['package_name'];
     },
     ':package_ns'          => function () use (&$values) {
-        return $values['package_ns'];
+        $value = ucwords(str_replace(['-', '_'], ' ', $values['package_name']));
+        return str_replace(' ', '', $value);
     },
     ':package_title'       => function () use (&$values) {
-        return $values['package_title'];
+        return ucwords(str_replace(['-', '_'], ' ', $values['package_name']));
     },
     ':package_description' => function () use (&$values) {
         return $values['package_description'];
