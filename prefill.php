@@ -4,8 +4,8 @@ define('COL_HELP', 1);
 define('COL_DEFAULT', 2);
 
 $fields = [
-    'package_name' =>        ['Package name',          '<package> in https://github.com/vendor/package',  ''],
-    'package_description' => ['Package very short description',   '',                                     ''],
+    'package_name' => ['Package name', '<package> in https://github.com/vendor/package', basename(__DIR__)],
+    'package_description' => ['Package very short description', '', ''],
 ];
 
 $values = [];
