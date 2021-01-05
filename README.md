@@ -24,10 +24,11 @@ composer require cerbero/:package_name
 
 ## Usage
 
-``` php
-$skeleton = new Cerbero\:package_ns\SkeletonClass();
-echo $skeleton->echoPhrase('Hello, League!');
-```
+1. Run `php prefill.php`
+2. Delete `prefill.php`
+3. Review versions of PHP and Laravel to support in [composer.json](composer.json), [build.yml](.github/workflows/build.yml) and [README badges](README.md)
+4. Submit package to [Packagist](https://packagist.org/packages/submit)
+5. Setup [Scrutinizer](https://scrutinizer-ci.com/)
 
 ## Change log
 
