@@ -30,6 +30,7 @@ composer require cerbero/:package_name
 1. Run `php prefill.php`
 1. Delete `prefill.php`
 1. Review versions of PHP and Laravel to support in [composer.json](composer.json), [build.yml](.github/workflows/build.yml) and [README badges](README.md)
+1. Push changes to master
 1. Submit package to [Packagist](https://packagist.org/packages/submit)
 1. Add repository to [Scrutinizer](https://scrutinizer-ci.com/g/new)
 1. Initialize GitFlow
