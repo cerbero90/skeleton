@@ -40,6 +40,11 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Cerbero\\:package_ns\\Providers\\:package_nsServiceProvider"
+            ]
         }
     },
     "config": {
