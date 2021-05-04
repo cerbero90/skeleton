@@ -104,6 +104,7 @@ foreach ($files as $f) {
 }
 
 rename('./src/Providers/RenameMeServiceProvider.php', './src/Providers/' . $replacements[':package_ns']() . 'ServiceProvider.php');
+rename('./tests/RenameMeTest.php', './tests/' . $replacements[':package_ns']() . 'Test.php');
 
 echo "Done.\n";
 echo "Now you should remove the file '" . basename(__FILE__) . "'.\n";
