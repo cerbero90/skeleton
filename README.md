@@ -15,7 +15,7 @@
 :package_description
 
 
-## Install
+## 📦 Install
 
 Via Composer
 
@@ -23,7 +23,7 @@ Via Composer
 composer require cerbero/:package_name
 ```
 
-## Usage
+## 🔮 Usage
 
 1. Create a new package by [using this template](https://github.com/cerbero90/skeleton/generate)
 1. Clone the newly created repository
@@ -36,30 +36,30 @@ composer require cerbero/:package_name
 1. Initialize GitFlow
 1. Happy coding!
 
-## Change log
+## 📆 Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-## Testing
+## 🧪 Testing
 
 ``` bash
 composer test
 ```
 
-## Contributing
+## 💞 Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
 
-## Security
+## 🧯 Security
 
 If you discover any security related issues, please email andrea.marco.sartori@gmail.com instead of using the issue tracker.
 
-## Credits
+## 🏅 Credits
 
 - [Andrea Marco Sartori][link-author]
 - [All Contributors][link-contributors]
 
-## License
+## ⚖️ License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
