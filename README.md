@@ -17,7 +17,7 @@
 
 ## 📦 Install
 
-Via Composer
+Via Composer:
 
 ``` bash
 composer require cerbero/:package_name
