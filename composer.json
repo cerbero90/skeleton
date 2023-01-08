@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Cerbero\\:package_ns\\": "src"
+            "Cerbero\\:package_ns\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Cerbero\\:package_ns\\": "tests"
+            "Cerbero\\:package_ns\\Tests\\": "tests/"
         }
     },
     "scripts": {
