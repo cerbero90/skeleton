@@ -85,3 +85,25 @@ jobs:
 
             - name: Execute check
               run: phpcs --standard=psr12 src/
+
+    static:
+        runs-on: ubuntu-latest
+
+        name: Static analysis
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+
+            - name: Setup PHP
+              uses: shivammathur/setup-php@v2
+              with:
+                  php-version: 8.1
+                  tools: composer:v2
+                  coverage: none
+
+            - name: Install dependencies
+              run: composer update --prefer-stable --prefer-dist --no-interaction
+
+            - name: Execute check
+              run: vendor/bin/phpstan analyse
