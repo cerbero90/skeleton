@@ -69,7 +69,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-laravel]: https://img.shields.io/static/v1?label=laravel&message=%E2%89%A55.5&color=ff2d20&logo=laravel&style=flat-square
 [ico-octane]: https://img.shields.io/static/v1?label=octane&message=compatible&color=ff2d20&logo=laravel&style=flat-square
 [ico-version]: https://img.shields.io/packagist/v/cerbero/:package_name.svg?label=version&style=flat-square
-[ico-actions]: https://img.shields.io/github/actions/workflow/status/cerbero90/:package_name/workflows/build.yml?branch=master&style=flat-square&logo=github
+[ico-actions]: https://img.shields.io/github/actions/workflow/status/cerbero90/json-parser/build.yml?branch=master&style=flat-square&logo=github
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-psr12]: https://img.shields.io/static/v1?label=compliance&message=PSR-12&color=blue&style=flat-square
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/cerbero90/:package_name.svg?style=flat-square&logo=scrutinizer
