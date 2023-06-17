@@ -107,4 +107,5 @@ rename('./src/Providers/RenameMeServiceProvider.php', './src/Providers/' . $repl
 rename('./tests/RenameMeTest.php', './tests/' . $replacements[':package_ns']() . 'Test.php');
 
 echo "Done.\n";
-echo "Now you should remove the file '" . basename(__FILE__) . "'.\n";
+
+unlink(__FILE__);
