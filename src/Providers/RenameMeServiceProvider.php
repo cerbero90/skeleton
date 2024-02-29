@@ -6,6 +6,9 @@ namespace Cerbero\:package_ns\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
+/**
+ * The package service provider.
+ */
 final class :package_nsServiceProvider extends ServiceProvider
 {
     /**
