@@ -1,10 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Cerbero\:package_ns\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class :package_nsServiceProvider extends ServiceProvider
+final class :package_nsServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
