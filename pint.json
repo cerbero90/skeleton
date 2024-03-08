@@ -14,6 +14,7 @@
                 "const"
             ]
         },
-        "simple_to_complex_string_variable": true
+        "simple_to_complex_string_variable": true,
+        "phpdoc_summary": true
     }
 }
