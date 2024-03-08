@@ -32,7 +32,8 @@ jobs:
 
             - name: Install dependencies
               run: |
-                  composer update --with="illuminate/contracts=${{ matrix.laravel }}" --${{ matrix.dependency-version }} --prefer-dist --no-interaction
+                  composer require "illuminate/support=${{ matrix.laravel }}" "orchestra/testbench:${{ matrix.testbench }}" --no-interaction --no-update
+                  composer update --${{ matrix.dependency-version }} --prefer-dist --no-interaction
 
             - name: Execute tests
               run: vendor/bin/pest
