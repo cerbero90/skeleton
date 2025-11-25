@@ -30,11 +30,14 @@ composer require cerbero/:package_name
 1. Review versions of PHP and Laravel to support in [composer.json](composer.json), [build.yml](.github/workflows/build.yml) and [README badges](README.md)
 1. Push changes to master
 1. Submit package to [Packagist](https://packagist.org/packages/submit)
-1. Add repository to [Codacy](https://app.codacy.com/organizations/gh/cerbero90/repositories/add)
+1. Configure Codacy:
+    - Enable [Codacy access](https://github.com/settings/installations/74386963)
+    - Add repository to [Codacy](https://app.codacy.com/organizations/gh/cerbero90/repositories/add)
     - Generate [Repository API Token](https://app.codacy.com/gh/cerbero90/:package_name/settings/coverage)
     - Add `CODACY_REPO_TOKEN` to the [repository secrets](https://github.com/cerbero90/:package_name/settings/secrets/actions/new)
     - Find the [project ID in the badge URL](https://app.codacy.com/gh/cerbero90/:package_name/settings) and add it to the Codacy badges on this README
     - If needed, manually [ignore the files](https://app.codacy.com/gh/cerbero90/:package_name/settings/ignoredFiles) that should not be analyzed
+    - Enable [repository analysis on your server](https://app.codacy.com/gh/cerbero90/:package_name/settings)
 1. Initialize GitFlow
 1. Happy coding!
 
